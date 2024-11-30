@@ -129,3 +129,13 @@ i.bi {
   font-size: 1.2rem;
   color: #D1E6FF;
 }
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+}
+
+.edit-button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
